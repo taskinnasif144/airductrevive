@@ -124,22 +124,22 @@ export interface testimonialsType {
 
 export const testimonialData = [
     {
-        reviews: "Air Duct Revive exceeded our expectations with their professional and efficient air duct cleaning service. Their friendly and knowledgeable staff explained the process clearly, and the technicians were meticulous in their work. We were impressed by their attention to detail, as they even showed us before-and-after pictures of the ductwork. Since the cleaning, we've noticed a significant improvement in our home's air quality.",
-        name: "Sara Hobert",
-        position: "CEO, NoonBrew",
-        image: "/dp-1.png"
+        reviews: "Air Duct Revive transformed our home's air quality! Their team was punctual, courteous, and highly skilled. The cleaning process was thorough and efficient. We're breathing easier and enjoying a healthier indoor environment. Highly recommended!",
+        name: "Michael Johnson",
+        position: "IT Consultant",
+        image: "/dp-2.jpg"
     },
     {
-        reviews: "Air Duct Revive exceeded our expectations with their professional and efficient air duct cleaning service. Their friendly and knowledgeable staff explained the process clearly, and the technicians were meticulous in their work. We were impressed by their attention to detail, as they even showed us before-and-after pictures of the ductwork. Since the cleaning, we've noticed a significant improvement in our home's air quality.",
-        name: "Mia Hobert",
-        position: "CEO, NoonBrew",
-        image: "/dp-1.png"
+        reviews: "I was initially skeptical about air duct cleaning, but Air Duct Revive changed my mind. Their technicians were knowledgeable and explained everything clearly. The cleaning process was quick and painless. We're so happy with the results!",
+        name: "Emily Davis",
+        position: "Stay-at-Home Mom",
+        image: "/dp-3.png"
     },
     {
-        reviews: "Air Duct Revive exceeded our expectations with their professional and efficient air duct cleaning service. Their friendly and knowledgeable staff explained the process clearly, and the technicians were meticulous in their work. We were impressed by their attention to detail, as they even showed us before-and-after pictures of the ductwork. Since the cleaning, we've noticed a significant improvement in our home's air quality.",
-        name: "Adguard Hobert",
-        position: "CEO, NoonBrew",
-        image: "/dp-1.png"
+        reviews: "Air Duct Revive provided exceptional service from start to finish. Their team was professional, efficient, and friendly. The cleaning process was thorough, and we're thrilled with the improved air quality in our home. We'll definitely use their services again!",
+        name: "David Lee",
+        position: "Small Business Owner",
+        image: "/dp-1.jpg"
     },
 ];
 

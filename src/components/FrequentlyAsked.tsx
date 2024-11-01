@@ -1,7 +1,7 @@
 'use client'
 
 import { frequentlyAskedQuestionsData, frequentlyAskedQuestionsType } from '@/utils/constants'
-import { ArrowDown, Minus, Plus } from 'lucide-react'
+import { Minus, Plus } from 'lucide-react'
 import Image from 'next/image'
 import React, { useState } from 'react'
 

@@ -1,6 +1,6 @@
 'use client'
 
-import { contactUsData } from '@/utils/constants';
+
 import React from 'react'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
@@ -18,7 +18,7 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row md:justify-between'>
                 <div className=' font-thin text-base xs:text-lg sm:text-xl flex flex-col items-start gap-6 w-full md:w-[40%]'>
                     <p> <span className='block my-4 mb-6'>Ready to Experience Cleaner Air?</span>
-                        Let’s Make It Happen!
+                        Lets Make It Happen!
                         Reach out to us today and take the first step toward a healthier home. Whether you have questions, need a quote, or want to learn more about our services, we're here to help. Let's create a cleaner, safer space for you and your loved ones.
 
                         <span className='block my-6'> Stay Connected!</span></p>

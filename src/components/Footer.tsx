@@ -31,6 +31,12 @@ const Footer = () => {
                 <div className='my-8'>
                     <h5 className='font-bold text-lg'>Maryland </h5>
                     <h5><span className='font-bold '>Address: </span>904 S BROADWAY, BALTIMORE, MD 21231</h5></div>
+                <div className='my-8'>
+                    <h5 className='font-bold text-lg'>Texas </h5>
+                    <h5><span className='font-bold '>Address: </span>2800 1/2 Kramer Ln, Austin, TX 78758, USA</h5></div>
+                <div className='my-8'>
+                    <h5 className='font-bold text-lg'>Florida </h5>
+                    <h5><span className='font-bold '>Address: </span>1825 S Division Ave, Orlando, FL 32805, USA</h5></div>
                 <h4 className='my-2'><span className='font-bold'>CONTACT: </span> 214 329 9114</h4>
             </div>
             <div className='my-6'>

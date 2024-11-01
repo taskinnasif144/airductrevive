@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import React, { FormEvent, useState } from 'react'
+import React, { useState } from 'react'
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 

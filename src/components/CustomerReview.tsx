@@ -6,7 +6,7 @@ import React from 'react'
 
 const CustomerReview = () => {
     return (
-        <div className='bg-color-bg-secondary p-6'>
+        <section id='Testimonials' className='bg-color-bg-secondary p-6'>
 
             <div className=' flex flex-col items-center gap-3text-center pb-6 '>
                 <p className='text-color-bg-tertiary'>TESTIMONIALS</p>
@@ -18,7 +18,7 @@ const CustomerReview = () => {
                 {testimonialData.map(data => <CustomerReviewCard key={data.name} card={data} />)}
             </div>
 
-        </div>
+        </section>
     )
 }
 

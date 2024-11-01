@@ -5,7 +5,7 @@ import React from 'react'
 
 const OurServices = () => {
     return (
-        <div className='w-full  bg-color-bg-secondary mt-6 py-12'>
+        <section id='Services' className='w-full  bg-color-bg-secondary mt-6 py-12'>
             <div className=' flex flex-col items-center gap-3text-center pb-6 '>
                 <p className='text-color-bg-tertiary'>SERVICES</p>
                 <h4 className='font-bold text-xl  '>Our Services</h4>
@@ -18,7 +18,7 @@ const OurServices = () => {
 
 
             </div>
-        </div>
+        </section>
     )
 }
 type OurServicesCardProps = {

@@ -6,7 +6,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className=' mt-3 py-24 pb-40 md:pb-24 relative'>
+        <section id='Home' className=' mt-3 py-24 pb-40 md:pb-24 relative'>
             <Image alt='background' src={"/duct-clean.jpg"} fill={true} className='object-cover brightness-50 -z-10' />
             <div className='flex justify-around'>
                 <div className='w-full lg:w-1/2 p-8'>
@@ -25,7 +25,7 @@ const Hero = () => {
                 </div>
                 <div></div>
             </div>
-        </div>
+        </section>
     )
 }
 

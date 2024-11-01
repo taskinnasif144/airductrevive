@@ -5,7 +5,7 @@ import React from 'react'
 
 const OurProcess = () => {
     return (
-        <div className='w-full  bg-white mt-6 py-12 p-6'>
+        <section id='Process' className='w-full  bg-white mt-6 py-12 p-6'>
             <div className=' flex flex-col items-center gap-3text-center pb-6 '>
                 <p className='text-color-bg-tertiary'>HOW TO GET PRESSURE WASHING</p>
                 <h4 className='font-bold text-xl '>Our Simple Steps Process Working With Us is As Easy As ...</h4>
@@ -18,7 +18,7 @@ const OurProcess = () => {
 
 
             </div>
-        </div>
+        </section>
     )
 }
 type OurProcessCardProps = {

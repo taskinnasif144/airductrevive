@@ -6,7 +6,7 @@ import { priceCards, priceCardsType } from '@/utils/constants';
 
 const DuctCleaning = () => {
     return (
-        <div className='bg-color-white pt-48 md:pt-32'>
+        <section id='Pricing' className='bg-color-white pt-48 md:pt-32'>
             <h2 className='text-center font-bold text-3xl text-white'>Air Duct Cleaning</h2>
             <div className='flex flex-col md:flex-row items-center justify-center gap-4 px-6'>
                 {priceCards.map(card => {
@@ -15,7 +15,7 @@ const DuctCleaning = () => {
 
 
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -1,7 +1,7 @@
 
 
 export const navLinks = [
-    "Home", "Section", "About us", "Courses"
+    "Home", "Pricing", "Services", "Process", "Testimonials", "FAQ"
 ]
 
 export interface priceCardsType {

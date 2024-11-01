@@ -9,7 +9,7 @@ import React, { useState } from 'react'
 
 const FrequentlyAsked = () => {
     return (
-        <div className='p-6 flex flex-col lg:justify-around lg:flex-row'>
+        <section id='FAQ' className='p-6 flex flex-col lg:justify-around lg:flex-row'>
             <div className=' w-full lg:w-[40%]'>
                 <div>
                     <h5 className='text-color-sidebar'>HAVE ANY QUESTIONS</h5>
@@ -27,7 +27,7 @@ const FrequentlyAsked = () => {
                     <Image alt='background' src={"/roof.jpg"} height={600} width={600} className=' h-[300px] w-[250px] object-cover absolute bottom-0 right-0 rounded-3xl -z-10' />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 type FrequentlyAskedCardProps = {

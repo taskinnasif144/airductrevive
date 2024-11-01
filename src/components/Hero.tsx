@@ -1,3 +1,5 @@
+'use client'
+
 import { MoveRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
@@ -17,7 +19,12 @@ const Hero = () => {
                         Enjoy a cleaner, healthier home with our professional cleaning solutions. Our team specializes in dryer vent and air duct cleaning to help you breathe easier, improve energy efficiency, and reduce fire hazards. We’re dedicated to enhancing your indoor air quality and ensuring a safer environment for you and your family.
                         Revitalize Your Air Today!
                     </p>
-                    <button className='text-white bg-color-sidebar px-5 py-3 rounded-s-full rounded-e-full flex items-center gap-2 mt-4 text-sm md:text-lg'>
+                    <button
+                        onClick={() => {
+                            const element = document.querySelector("#Quote");
+                            element?.scrollIntoView({ behavior: "smooth" });
+                        }}
+                        className='text-white bg-color-sidebar px-5 py-3 rounded-s-full rounded-e-full flex items-center gap-2 mt-4 text-sm md:text-lg'>
                         Book a Service
                         <MoveRight className='h-4 w-4 md:w-8 md:h-8' />
                     </button>

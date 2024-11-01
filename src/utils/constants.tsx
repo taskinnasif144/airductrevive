@@ -12,19 +12,19 @@ export interface priceCardsType {
 
 export const priceCards = [
     {
-        title: "Up to 1,000 SQ FT",
+        title: "Up to 1,500 SQ FT",
         price: "$199",
-        subTitles: ["Unlimited Vents", "1 system", "1 zone", "2 main ducts", "1 return"]
+        subTitles: ["1 System Clean", "2 main ducts", "Free Plenum box inspection", "Free system inspection", "Free dryer inspection", "free intake line inspection"]
     },
     {
-        title: "From 1,000 to 2,000 SQ FT",
+        title: "Up to 3,000 SQ FT",
         price: "$299",
-        subTitles: ["Unlimited Vents", "1 system", "1 zone", "2 main ducts", "1 return"]
+        subTitles: ["1 System Clean", "2 main ducts", "Free Plenum box inspection", "Free system inspection", "Free dryer inspection", "Free intake line inspection"]
     },
     {
-        title: "More than 2,000 SQ FT",
+        title: "More than 3,000 SQ FT",
         price: "$399",
-        subTitles: ["Unlimited Vents", "1 system", "1 zone", "2 main ducts", "2 return"]
+        subTitles: ["1 System Clean", "2 main ducts", "Free Plenum box inspection", "Free system inspection", "Free dryer inspection", "free intake line inspection"]
     },
 ];
 

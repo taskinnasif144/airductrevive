@@ -17,11 +17,7 @@ const GetUserInfo = () => {
                     <input type="text" placeholder='Full Name' className='px-4 py-1 rounded w-[200px] focus:outline-none' />
                     <input type="email" placeholder='Email' className='px-4 py-1 rounded  w-[200px] focus:outline-none' />
                     <PhoneInput
-                        containerStyle={{ width: '200px' }}
                         inputStyle={{ width: '200px' }}
-                        dropdownStyle={{ width: '200px' }}
-                        buttonStyle={{ width: '200px' }}
-                        searchStyle={{ width: '200px' }}
                         country={'us'}
                         value={phone}
                         onChange={value => setPhone(value)}

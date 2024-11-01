@@ -1,9 +1,9 @@
 import { ourProcessData, ourProcessTypes } from '@/utils/constants'
 import React from 'react'
 
-type Props = {}
 
-const OurProcess = (props: Props) => {
+
+const OurProcess = () => {
     return (
         <div className='w-full  bg-white mt-6 py-12 p-6'>
             <div className=' flex flex-col items-center gap-3text-center pb-6 '>

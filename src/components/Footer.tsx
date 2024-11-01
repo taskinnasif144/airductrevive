@@ -5,14 +5,14 @@ import React from 'react'
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 
 
-type Props = {}
+
 
 
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-const Footer = (props: Props) => {
+const Footer = () => {
     return (
         <div className='bg-black text-white p-16 md:px-32'>
             <div className='flex flex-col md:flex-row md:justify-between'>

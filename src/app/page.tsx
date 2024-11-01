@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import OurProcess from "@/components/OurProcess";
 import OurServices from "@/components/OurServices";
-import Image from "next/image";
+
 
 
 export default function Home() {

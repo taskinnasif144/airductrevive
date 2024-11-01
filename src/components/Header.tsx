@@ -5,9 +5,9 @@ import Image from 'next/image';
 import React, { useState } from 'react'
 import Sidebar from './Sidebar';
 
-type Props = {}
 
-const Header = (props: Props) => {
+
+const Header = () => {
     const [closeSide, setCloseSide] = useState<boolean>(false)
     return (
         <div className='fixed bg-white top-0 left-0 p-3 w-full z-20 flex items-center justify-between bg'>

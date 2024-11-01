@@ -2,9 +2,9 @@ import { MoveRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
 
-const Hero = (props: Props) => {
+
+const Hero = () => {
     return (
         <div className=' mt-3 py-24 pb-40 md:pb-24 relative'>
             <Image alt='background' src={"/duct-clean.jpg"} fill={true} className='object-cover brightness-50 -z-10' />

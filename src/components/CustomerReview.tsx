@@ -2,9 +2,9 @@ import { testimonialData, testimonialsType } from '@/utils/constants'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
 
-const CustomerReview = (props: Props) => {
+
+const CustomerReview = () => {
     return (
         <div className='bg-color-bg-secondary p-6'>
 

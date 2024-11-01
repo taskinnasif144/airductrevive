@@ -2,9 +2,9 @@ import React from 'react'
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 import { priceCards, priceCardsType } from '@/utils/constants';
 
-type Props = {}
 
-const DuctCleaning = (props: Props) => {
+
+const DuctCleaning = () => {
     return (
         <div className='bg-color-white pt-48 md:pt-32'>
             <h2 className='text-center font-bold text-3xl text-white'>Air Duct Cleaning</h2>

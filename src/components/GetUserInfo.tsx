@@ -4,9 +4,9 @@ import React, { useState } from 'react'
 import PhoneInput from 'react-phone-input-2'
 import 'react-phone-input-2/lib/style.css'
 
-type Props = {}
 
-const GetUserInfo = (props: Props) => {
+
+const GetUserInfo = () => {
     const [phone, setPhone] = useState('')
     return (
         <div className='absolute bg-color-sidebar p-6 rounded flex flex-col gap-6 justify-center items-center  w-full lg:w-4/5'>

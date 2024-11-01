@@ -33,7 +33,7 @@ const DuctPricingCard = ({ card }: card) => {
             </div>
             <ul className='mt-5 flex flex-col gap-3 '>
                 {
-                    card.subTitles.map(sub => <li className='flex items-center gap-3'> <CheckCircleRoundedIcon /> <span> {sub}</span></li>)
+                    card.subTitles.map(sub => <li key={sub} className='flex items-center gap-3'> <CheckCircleRoundedIcon /> <span> {sub}</span></li>)
                 }
 
 

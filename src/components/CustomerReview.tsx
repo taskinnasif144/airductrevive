@@ -28,7 +28,7 @@ type testimonialProp = {
 
 const CustomerReviewCard = ({ card }: testimonialProp) => {
     return <div className='bg-color-sidebar p-4 flex flex-col gap-4 rounded-xl max-w-[400px]'>
-        <p className='text-gray-200 text-start'>"{card.reviews}"</p>
+        <p className='text-gray-200 text-start'>{`"${card.reviews}"`}</p>
         <div className='flex items-center gap-4'>
             <Image alt='dp' src={card.image} height={200} width={200} className='h-16 w-16 rounded-full object-cover' />
             <div>

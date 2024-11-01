@@ -1,4 +1,4 @@
-import { Subtitles } from "lucide-react";
+
 
 export const navLinks = [
     "Home", "Section", "About us", "Courses"

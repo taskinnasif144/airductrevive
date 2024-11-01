@@ -12,7 +12,7 @@ const Hero = () => {
             <Image alt='background' src={"/duct-clean.jpg"} fill={true} className='object-cover brightness-50 -z-10' />
             <div className='flex justify-around'>
                 <div className='w-full lg:w-1/2 p-8'>
-                    <h3 className='text-white font-bold text-2xl sm:text-4xl md:text-5xl'>Roofing / Dryer Vent & <br /> Air Duct Cleaning</h3>
+                    <h3 className='text-white font-bold text-2xl sm:text-4xl md:text-5xl'> Air Duct Cleaning</h3>
                     <p className='text-gray-300 font-normal mt-5 text-xs'>
                         <span>Expert Dryer Vent & Air Duct Cleaning Services</span>
 

@@ -26,16 +26,14 @@ const Footer = () => {
             </div>
             <div className='my-4'>
                 <h3 className='text-2xl font-bold mb-6'>Service Area</h3>
-                <div className='my-2'><h5>Massachusetts </h5>
+                <div className='my-8'><h5 className='font-bold text-lg'>Massachusetts </h5>
                     <h5><span className='font-bold'>Address: </span> 55 KILBY ST, BOSTON, MA 02109</h5></div>
-                <div className='my-2'>     <h5>
-                    Maryland </h5>
-                    <h5><span className='font-bold'>Address: </span>904 S BROADWAY, BALTIMORE, MD 21231</h5></div>
-
-
+                <div className='my-8'>
+                    <h5 className='font-bold text-lg'>Maryland </h5>
+                    <h5><span className='font-bold '>Address: </span>904 S BROADWAY, BALTIMORE, MD 21231</h5></div>
                 <h4 className='my-2'><span className='font-bold'>CONTACT: </span> 214 329 9114</h4>
             </div>
-            <div className='my-4'>
+            <div className='my-6'>
                 <h3 className='text-2xl font-bold mb-6'>Hours of Operation</h3>
                 <h4><span className='font-bold'>Monday:</span> 8:00AM-9:00PM</h4>
                 <h4><span className='font-bold'>Tuesday:</span> 8:00AM-9:00PM</h4>

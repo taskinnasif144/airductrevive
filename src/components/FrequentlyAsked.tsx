@@ -15,7 +15,7 @@ const FrequentlyAsked = () => {
                     <h5 className='text-color-sidebar'>HAVE ANY QUESTIONS</h5>
                     <h3 className='text-xl font-bold xs:text-2xl md:text-3xl'>Most Asked Questions By Our Customers</h3>
                 </div>
-                <div className='mt-12'>
+                <div className='mt-3'>
                     <div className=''>
                         {frequentlyAskedQuestionsData.map(ques => <FrequentlyAskedCard key={ques.question} card={ques} />)}
                     </div>
@@ -23,8 +23,9 @@ const FrequentlyAsked = () => {
             </div>
             <div className=''>
                 <div className='h-[500px] w-[340px] relative'>
-                    <Image alt='background' src={"/drill.jpeg"} height={600} width={600} className=' h-[300px] w-[220px] object-cover absolute top-0 left-0 rounded-3xl' />
-                    <Image alt='background' src={"/roof.jpg"} height={600} width={600} className=' h-[300px] w-[250px] object-cover absolute bottom-0 right-0 rounded-3xl -z-10' />
+                    <Image alt='background' src={"/BaF.jpeg"} height={600} width={600} className=' h-[150px] w-[340px] object-cover absolute top-0 left-0 rounded-3xl' />
+                    <Image alt='background' src={"/clean.jpeg"} height={600} width={600} className=' h-[300px] w-[250px] object-cover absolute bottom-1/4 left-0 rounded-3xl -z-10' />
+                    <Image alt='background' src={"/dual.jpeg"} height={600} width={600} className=' h-[150px] w-[300px] object-cover absolute  bottom-0 right-0 rounded-3xl -z-10' />
                 </div>
             </div>
         </section>

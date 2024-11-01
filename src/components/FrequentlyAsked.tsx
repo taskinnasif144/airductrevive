@@ -23,8 +23,8 @@ const FrequentlyAsked = () => {
             </div>
             <div className=''>
                 <div className='h-[500px] w-[340px] relative'>
-                    <Image alt='background' src={"/BaF.jpeg"} height={600} width={600} className=' h-[150px] w-[340px] object-cover absolute top-0 left-0 rounded-3xl' />
-                    <Image alt='background' src={"/clean.jpeg"} height={600} width={600} className=' h-[300px] w-[250px] object-cover absolute bottom-1/4 left-0 rounded-3xl -z-10' />
+                    <Image alt='background' src={"/vent.jpeg"} height={600} width={600} className=' h-[150px] w-[340px] object-cover absolute top-0 left-0 rounded-3xl' />
+                    <Image alt='background' src={"/pipe.jpeg"} height={600} width={600} className=' h-[300px] w-[250px] object-cover absolute bottom-[45px] left-0 rounded-3xl -z-10' />
                     <Image alt='background' src={"/dual.jpeg"} height={600} width={600} className=' h-[150px] w-[300px] object-cover absolute  bottom-0 right-0 rounded-3xl -z-10' />
                 </div>
             </div>
@@ -32,7 +32,7 @@ const FrequentlyAsked = () => {
     )
 }
 type FrequentlyAskedCardProps = {
-    card: frequentlyAskedQuestionsType
+    card: frequentlyAskedQuestionsType;
 }
 const FrequentlyAskedCard = ({ card }: FrequentlyAskedCardProps) => {
     const [ans, setAns] = useState(false);

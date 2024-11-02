@@ -14,6 +14,9 @@ const GetUserInfo = () => {
     const [serviceType, setserviceType] = useState('');
 
     const formSubmition = async (e: React.FormEvent<HTMLFormElement>) => {
+        console.log(
+            "_____________________________Form ________________________________________"
+        );
         e.preventDefault();
         let form = {
             name,

@@ -12,18 +12,21 @@ const GetUserInfo = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [serviceType, setserviceType] = useState('Air Duct & Ventilation Cleaning');
-    console.log("______________________________", process.env.NEXT_PUBLIC_BASE_URL);
+
 
     const formSubmition = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log("________________")
+
         let form = {
             name,
             email,
             phone,
             serviceType
         }
-
+        alert("Submitted");
+        setName("");
+        setEmail("");
+        setPhone("");
         const url = process.env.NEXT_PUBLIC_BASE_URL + "/api/submit";
         const res = await fetch(url, {
             method: "POST",
@@ -36,15 +39,7 @@ const GetUserInfo = () => {
         });
 
         const data = await res.json()
-        console.log(data);
 
-        if (data) {
-            alert("Submitted");
-            setName("");
-            setEmail("");
-            setPhone("");
-
-        }
     }
 
     return (

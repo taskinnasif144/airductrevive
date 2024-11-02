@@ -15,7 +15,7 @@ const Quote = () => {
 
     const handleFormSubmission = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log("________________")
+
         let form = {
             name,
             email,
@@ -23,6 +23,13 @@ const Quote = () => {
             Zipcode,
             message
         }
+
+        alert("Submitted");
+        setPhone("");
+        setEmail("");
+        setName("");
+        setZipcode("");
+        setMessage("");
 
         const url = process.env.NEXT_PUBLIC_BASE_URL + "/api/submit2"
 
@@ -38,14 +45,7 @@ const Quote = () => {
         });
 
         const data = await res.json();
-        if (data) {
-            alert("Submitted");
-            setPhone("");
-            setEmail("");
-            setName("");
-            setZipcode("");
-            setMessage("");
-        }
+
 
     }
 

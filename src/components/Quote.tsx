@@ -13,13 +13,36 @@ const Quote = () => {
     const [Zipcode, setZipcode] = useState("");
     const [message, setMessage] = useState("");
 
-    const handleFormSubmission = (e: React.FormEvent<HTMLFormElement>) => {
+    const handleFormSubmission = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log(phone);
-        console.log(name);
-        console.log(email);
-        console.log(Zipcode);
-        console.log(message);
+        let form = {
+            name,
+            email,
+            phone,
+            Zipcode,
+            message
+        }
+
+        const url = "/api/submit2"
+        const res = await fetch(url, {
+            method: "POST",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(form)
+
+        });
+
+        const data = await res.json();
+        if (data) {
+            alert("Submitted");
+            setPhone("");
+            setEmail("");
+            setName("");
+            setZipcode("");
+            setMessage("");
+        }
 
     }
 

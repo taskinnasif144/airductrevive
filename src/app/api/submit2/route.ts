@@ -8,7 +8,7 @@ type upperForm = {
   message: string;
 };
 
-export const POST = async (req: Request, res: Response) => {
+export const POST = async (req: Request) => {
   const body: upperForm = await req.json();
   try {
     const auth = new google.auth.GoogleAuth({
@@ -43,6 +43,6 @@ export const POST = async (req: Request, res: Response) => {
       status: 201,
     });
   } catch (e: any) {
-    return new Response(JSON.stringify(body), { status: e.code });
+    return new Response(JSON.stringify(body), { status: 405 });
   }
 };

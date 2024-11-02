@@ -21,7 +21,6 @@ const GetUserInfo = () => {
             phone,
             serviceType
         }
-        console.log("form data", form);
 
         const url = "/api/submit"
         const res = await fetch(url, {

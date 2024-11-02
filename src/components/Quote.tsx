@@ -15,6 +15,7 @@ const Quote = () => {
 
     const handleFormSubmission = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log("________________")
         let form = {
             name,
             email,
@@ -23,7 +24,9 @@ const Quote = () => {
             message
         }
 
-        const url = process.env.BASE_URL + "/api/submit2"
+        const url = process.env.NEXT_PUBLIC_BASE_URL + "/api/submit2"
+
+
         const res = await fetch(url, {
             method: "POST",
             headers: {

@@ -11,10 +11,12 @@ const GetUserInfo = () => {
     const [phone, setPhone] = useState('');
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [serviceType, setserviceType] = useState('');
+    const [serviceType, setserviceType] = useState('Air Duct & Ventilation Cleaning');
+    console.log("______________________________", process.env.NEXT_PUBLIC_BASE_URL);
 
     const formSubmition = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log("________________")
         let form = {
             name,
             email,
@@ -22,7 +24,7 @@ const GetUserInfo = () => {
             serviceType
         }
 
-        const url = process.env.BASE_URL + "/api/submit";
+        const url = process.env.NEXT_PUBLIC_BASE_URL + "/api/submit";
         const res = await fetch(url, {
             method: "POST",
             headers: {
@@ -34,6 +36,8 @@ const GetUserInfo = () => {
         });
 
         const data = await res.json()
+        console.log(data);
+
         if (data) {
             alert("Submitted");
             setName("");
@@ -61,7 +65,7 @@ const GetUserInfo = () => {
 
                         />
                         <select className='w-[210px] text-sm outline-none appearance-none text-start px-3 py-2 ' value={serviceType} onChange={(e) => { setserviceType(e.target.value) }}>
-                            <option value="Air Duct & Ventilation Cleaning " className='focus:outline-none '>Air Duct & Ventilation Cleaning</option>
+                            <option value="Air Duct & Ventilation Cleaning" className='focus:outline-none '>Air Duct & Ventilation Cleaning</option>
                             <option value="Chimney Fireplaces Cleaning" className='focus:outline-none px-3 py-2'>Chimney Fireplaces Cleaning</option>
                             <option value="Dryer Vent Cleaning" className='focus:outline-none px-3 py-2'>Dryer Vent Cleaning</option>
                         </select>

@@ -14,9 +14,6 @@ const GetUserInfo = () => {
     const [serviceType, setserviceType] = useState('');
 
     const formSubmition = async (e: React.FormEvent<HTMLFormElement>) => {
-        console.log(
-            "_____________________________Form ________________________________________"
-        );
         e.preventDefault();
         let form = {
             name,
@@ -25,7 +22,7 @@ const GetUserInfo = () => {
             serviceType
         }
 
-        const url = "/api/submit"
+        const url = process.env.BASE_URL + "/api/submit";
         const res = await fetch(url, {
             method: "POST",
             headers: {

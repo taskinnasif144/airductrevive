@@ -23,7 +23,7 @@ const Quote = () => {
             message
         }
 
-        const url = "/api/submit2"
+        const url = process.env.BASE_URL + "/api/submit2"
         const res = await fetch(url, {
             method: "POST",
             headers: {

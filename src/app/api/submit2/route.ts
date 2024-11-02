@@ -9,6 +9,9 @@ type upperForm = {
 };
 
 export const POST = async (req: Request) => {
+  console.log(
+    "_____________________________ Enters API ________________________________________"
+  );
   const body: upperForm = await req.json();
   try {
     const auth = new google.auth.GoogleAuth({

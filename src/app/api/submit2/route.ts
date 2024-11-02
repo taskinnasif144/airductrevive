@@ -42,7 +42,7 @@ export const POST = async (req: Request, res: Response) => {
     return new Response(JSON.stringify({ data: response.data }), {
       status: 201,
     });
-  } catch (e) {
-    return new Response(JSON.stringify(body), { status: 405 });
+  } catch (e: any) {
+    return new Response(JSON.stringify(body), { status: e.code });
   }
 };

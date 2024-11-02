@@ -39,7 +39,7 @@ export const POST = async (req: Request) => {
     return new Response(JSON.stringify({ data: response.data }), {
       status: 201,
     });
-  } catch (e: unknown) {
+  } catch (e: any) {
     return new Response(JSON.stringify(body), { status: 405 });
   }
 };
